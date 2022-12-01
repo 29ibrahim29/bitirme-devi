@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.navbar{
+    display: flex;
+    height: 50px;
+    background-color: wheat;
+    font-size: 20px;
+}
+.navbar1{
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+}
+.container1{
+    width: 50%;
+    position: relative;
+    float: right;
+    padding: 20px;
+    padding-left: 200px;
+}
+.container1 a{
+    color: grey;
+    text-decoration: none;
+    
+}
+.son{
+    
+    background-color: white;
+    transform: translate(-50px);
+   
+}
+.son1{
+    
+    padding-left: 100px;
+    margin-left: 550px;
+}
+.son1 input{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    
+    
+}
+.login-form{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.login-form input{
+    background-color: #F0F0E9;
+    margin: 0px 0px 10px;
+    padding: 1px 2px 1px 10px;
+}
+.login-form button{
+    background-color: orange;
+    border-radius: 0%;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+}
+.col-sm-1{
+    position: absolute;
+    background-color: orange;
+    color:white;
+    margin-top: -30%;
+    margin-left: 27%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+.col-sm-1 h2{
+    font-size: 16px;
+    text-align: center;
+    padding: 13px 0px 0px;
+}
+.col-sm-4{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+.signup-form{
+    width: 50%;
+    margin-left: 100%;
+    margin-top: -150%;
+    padding:78px;
+    
+}
+.signup-form h2{
+    width: 1000px;
+    padding-bottom: 33px;
+}
+.signup-form input{
+    background-color: #F0F0E9;
+    margin: 0px 0px 12px;
+    padding: 1px 2px 1px 10px;
+}
+.signup-form button{
+    background-color: orange;
+    border-radius: 0%;
+    color: white;
+}
+
+
+/* footer desing */
+.footer1{
+    width: 100%;
+}
+.eshop{
+    position: absolute;
+    width: 20%;
+    margin: auto;
+    margin-left: 140px;
+    margin-top: 80px;
+    
+}
+.eshop span{
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.eshop h2{
+    font-size: 40px;
+    color: rgb(61, 61, 60);
+}
+.eshop p{
+    font-size: 16px;
+}
+.resim{
+    position: relative;
+    width: 50%;
+    margin-left: 30%;
+}
+.resim img{
+    position: absolute;
+    width: 20%;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border-radius: 50px;
+}
+.resim1 img{
+    position: absolute;
+    width: 10%;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 46%;
+    border-radius: 50px;
+}
+.resim2 img{
+    position: absolute;
+    width: 10%;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 57%;
+    border-radius: 50px;
+}
+.map{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 79%;
+}
+.map p{
+    position: absolute;
+    margin-top: -100px;
+    left: 20px;
+}
+.footer{
+    background-color: #F0F0E9;
+    padding: 300px 0;
+
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    margin-left: -30px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #666663;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 150px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #666663;
+    text-decoration: none;
+    font-weight: 300;
+    color: #666663;
+    display: block;
+    transition: all 0.3s ease
+}
+.footer-col ul li a:hover{
+    color: #666663;
+    padding-left: 8px;
+}
